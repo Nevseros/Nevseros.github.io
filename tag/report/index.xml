@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Report | Academic</title>
+    <link>https://example.com/tag/report/</link>
+      <atom:link href="https://example.com/tag/report/index.xml" rel="self" type="application/rss+xml" />
+    <description>Report</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 29 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Report</title>
+      <link>https://example.com/tag/report/</link>
+    </image>
+    
+    <item>
+      <title>Создание отчётов</title>
+      <link>https://example.com/post/writing-reports/</link>
+      <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/writing-reports/</guid>
+      <description>&lt;h2 id=&#34;что-такое-отчёт-и-зачем-он-нужен&#34;&gt;Что такое отчёт и зачем он нужен?&lt;/h2&gt;
+&lt;p&gt;Отчёт - это формальное сообщение о выполненной работе, доклад о процессе выполнения задач и результатах их выполнения. Отчёт обычно составляется, чтобы дать понимание о проделанной работе в письменном виде, зачастую для тех, кто ставил задачи, а иногда в качестве обучающего материала, пособия.&lt;/p&gt;
+&lt;h2 id=&#34;оформление-отчёта&#34;&gt;Оформление отчёта&lt;/h2&gt;
+&lt;p&gt;Для каждой лабораторной работы курса &amp;ldquo;Операционные системы&amp;rdquo; мы оформляем отчёт в формате MarkDown. Как работает оформление контента в MarkDown я уже, кстати, писала &lt;a href=&#34;https://nevseros.github.io/post/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;здесь&lt;/a&gt;, предлагаю сначала прочитать статью про него.&lt;/p&gt;
+&lt;p&gt;У отчёта должна быть понятная и обоснованная структура. Например, для оформления отчёта по лабораторной работе используется следующая структура:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Титульный лист.&lt;/strong&gt; Он должен включать заголовок - субъект отчёта (например, &amp;ldquo;Отчёт по лабораторной работе №99&amp;rdquo;), дисциплину, по которой выполнялась работа (например, &amp;ldquo;Операционные системы&amp;rdquo;), автора отчёта и работы (ФИ).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Содержание.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Список таблиц/картинок/листингов программ&lt;/strong&gt; для удобства.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Цель работы и задачи.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Теоретическое введение.&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Основную часть&lt;/strong&gt; - описание работы. Сюда можно (и нужно!) включать картинки, листинги, таблицы для лучшего понимания и восприятия содержимого.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Заключение&lt;/strong&gt; - здесь можно написать выводы, описать полученный опыт, плюсы и минусы того или иного подхода и т. д.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Кроме соблюдения строгой структуры, отчёт должен быть написан грамотно - иначе его будет неприятно читать, а если отчёт оценивается преподавателем, то отметка будет снижена.&lt;/p&gt;
+&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
+&lt;p&gt;Комбинируя MarkDown и описанную выше структуру отчёта, можно писать очень приятные для глаз отчёты, при этом делая их полезными для читателя и презентабельными для преподавателя/коллег.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
