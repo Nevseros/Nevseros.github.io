@@ -5,12 +5,30 @@
     <link>https://example.com/tag/academic/</link>
       <atom:link href="https://example.com/tag/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 29 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 13 May 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
       <link>https://example.com/tag/academic/</link>
     </image>
+    
+    <item>
+      <title>Первая неделя мая - как это было</title>
+      <link>https://example.com/post/may-first-week/</link>
+      <pubDate>Sat, 13 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/may-first-week/</guid>
+      <description>&lt;h2 id=&#34;цели-недели&#34;&gt;Цели недели&lt;/h2&gt;
+&lt;p&gt;На эту неделю было не так много целей:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Сделать и сдать лабораторные работы по компьютерной алгебре и операционным системам.&lt;/li&gt;
+&lt;li&gt;Сделать домашнее задание.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;неделя&#34;&gt;Неделя&lt;/h2&gt;
+&lt;p&gt;На прошедшей неделе заметно потеплело, поэтому учиться хотелось меньше, чем обычно. Однако я посетила занятия в университете, а также нашла время погулять. Все лабораторные работы были сданы в срок, а контрольная была написана на &amp;ldquo;отлично&amp;rdquo;. Я также приступила к домашнему заданию на следующую неделю.&lt;/p&gt;
+&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
+&lt;p&gt;Неделя прошла довольно успешно и выдалась продуктивной.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Последняя неделя апреля - как это было</title>
