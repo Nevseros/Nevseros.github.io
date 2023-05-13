@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Analysis | Academic</title>
+    <link>https://example.com/tag/data-analysis/</link>
+      <atom:link href="https://example.com/tag/data-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <description>Data Analysis</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 May 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Data Analysis</title>
+      <link>https://example.com/tag/data-analysis/</link>
+    </image>
+    
+    <item>
+      <title>Data Analysis</title>
+      <link>https://example.com/project/data-analysis/</link>
+      <pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/project/data-analysis/</guid>
+      <description>&lt;p&gt;В ходе выполнения проекта мною были обработаны данные о начичии, ценах, характеристиках товаров, таких как принтеры, компьютеры, ноутбуки. Были проанализированы некоторые зависимости, данные были визуализированы.&lt;/p&gt;
+&lt;p&gt;Проект можно найти ниже:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;./final_project.pdf&#34;&gt;В формате PDF&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;./final_project.ipynb&#34;&gt;В формате IPYNB (Jupyter Notebook)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
