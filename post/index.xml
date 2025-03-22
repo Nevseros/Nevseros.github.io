@@ -1,37 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Latest News | Wowchemy Research Group</title>
+    <title>Свежие новости | Колебания цепочек</title>
     <link>https://example.com/post/</link>
       <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Latest News</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
+    <description>Свежие новости</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 22 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu_7613a4a452ac7087.png</url>
-      <title>Latest News</title>
+      <title>Свежие новости</title>
       <link>https://example.com/post/</link>
     </image>
     
     <item>
-      <title>Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020</title>
-      <link>https://example.com/post/20-12-02-icml-best-paper/</link>
-      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/20-12-02-icml-best-paper/</guid>
-      <description>&lt;p&gt;Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
-&lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
-&lt;p&gt;Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Richard Hendricks Wins First Place in the Wowchemy Prize</title>
-      <link>https://example.com/post/20-12-01-wowchemy-prize/</link>
-      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/20-12-01-wowchemy-prize/</guid>
-      <description>&lt;p&gt;Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.&lt;/p&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
-&lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
-&lt;p&gt;Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.&lt;/p&gt;</description>
+      <title>Модель. Презентация по научной проблеме. Теоретическое описание задачи. Описание модели.</title>
+      <link>https://example.com/post/2025-03-22-intro/</link>
+      <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/2025-03-22-intro/</guid>
+      <description>&lt;p&gt;Мы приступили к реализации проекта - делимся моделью.&lt;/p&gt;
+&lt;h1 id=&#34;введение&#34;&gt;Введение&lt;/h1&gt;
+&lt;h2 id=&#34;состав-команды&#34;&gt;Состав команды&lt;/h2&gt;
+&lt;p&gt;В нашу команду входят студенты группы НФИбд-02-22 РУДН:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Екатерина Канева&lt;/li&gt;
+&lt;li&gt;Михаил Клюкин&lt;/li&gt;
+&lt;li&gt;Яна Ланцова&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;актуальность&#34;&gt;Актуальность&lt;/h2&gt;
+&lt;p&gt;Все вещества состоят из атомов, которые постоянно колеблются. Изучение этих колебаний помогает нам понять, как материалы ведут себя при разных температурах. Особенно важно понимать, как колебания приводят к тепловому равновесию. Исследование цепочек атомов, связанных пружинками, это простая модель, чтобы понять, как возникают колебания в кристаллах. Эта модель помогает объяснить, почему некоторые классические законы физики работают только при высоких температурах. Понимание колебаний важно для создания новых материалов с нужными свойствами, например, для электроники или термоизоляции.&lt;/p&gt;
+&lt;h2 id=&#34;объект-и-предмет-исследования&#34;&gt;Объект и предмет исследования&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Изучение условий для установления равновесия.&lt;/li&gt;
+&lt;li&gt;Изучение условий для приближения к равновесию.&lt;/li&gt;
+&lt;li&gt;Изучение явлений в простейшем одномерном случае.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h2&gt;
+&lt;p&gt;Исследовать закономерности колебаний в простейшей одномерной цепочке атомов, связанных между собой.&lt;/p&gt;
+&lt;h2 id=&#34;задачи&#34;&gt;Задачи&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;построить модель цепочки из N частиц;&lt;/li&gt;
+&lt;li&gt;задать начальные условия в виде гармоники и измерить собственную частоту. Сравнить результаты с теоретическими;&lt;/li&gt;
+&lt;li&gt;проверить, используя преобразования Фурье координат и скоростей частиц, что энергия каждой гармоники не меняется;&lt;/li&gt;
+&lt;li&gt;рассмотреть цепочку с чередующимися частицами.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Более подробно с публикацией можно ознакомиться по &lt;a href=&#34;https://nevseros.github.io/publication/conference-paper&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;этой&lt;/a&gt; ссылке.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Защиту работы можно найти по &lt;a href=&#34;https://plvideo.ru/watch?v=UbNmImnvGdzX&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;этой&lt;/a&gt; ссылке.
+  &lt;/div&gt;
+&lt;/div&gt;</description>
     </item>
     
   </channel>
