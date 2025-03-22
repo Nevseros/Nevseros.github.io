@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Свежие новости | Колебания цепочек</title>
-    <link>https://example.com/post/</link>
-      <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/post/</link>
+      <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Свежие новости</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 22 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu_7613a4a452ac7087.png</url>
+      <url>http://localhost:1313/media/icon_hu_7613a4a452ac7087.png</url>
       <title>Свежие новости</title>
-      <link>https://example.com/post/</link>
+      <link>http://localhost:1313/post/</link>
     </image>
     
     <item>
       <title>Модель. Презентация по научной проблеме. Теоретическое описание задачи. Описание модели.</title>
-      <link>https://example.com/post/2025-03-22-intro/</link>
+      <link>http://localhost:1313/post/2025-03-22-intro/</link>
       <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/2025-03-22-intro/</guid>
+      <guid>http://localhost:1313/post/2025-03-22-intro/</guid>
       <description>&lt;p&gt;Мы приступили к реализации проекта - делимся моделью.&lt;/p&gt;
 &lt;h1 id=&#34;введение&#34;&gt;Введение&lt;/h1&gt;
 &lt;h2 id=&#34;состав-команды&#34;&gt;Состав команды&lt;/h2&gt;
