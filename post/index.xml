@@ -1,220 +1,37 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts | Academic</title>
+    <title>Latest News | Wowchemy Research Group</title>
     <link>https://example.com/post/</link>
       <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
-    <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 13 May 2023 00:00:00 +0000</lastBuildDate>
+    <description>Latest News</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 02 Dec 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Posts</title>
+      <url>https://example.com/media/icon_hu_7613a4a452ac7087.png</url>
+      <title>Latest News</title>
       <link>https://example.com/post/</link>
     </image>
     
     <item>
-      <title>Первая неделя мая - как это было</title>
-      <link>https://example.com/post/may-first-week/</link>
-      <pubDate>Sat, 13 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/may-first-week/</guid>
-      <description>&lt;h2 id=&#34;цели-недели&#34;&gt;Цели недели&lt;/h2&gt;
-&lt;p&gt;На эту неделю было не так много целей:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Сделать и сдать лабораторные работы по компьютерной алгебре и операционным системам.&lt;/li&gt;
-&lt;li&gt;Сделать домашнее задание.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;неделя&#34;&gt;Неделя&lt;/h2&gt;
-&lt;p&gt;На прошедшей неделе заметно потеплело, поэтому учиться хотелось меньше, чем обычно. Однако я посетила занятия в университете, а также нашла время погулять. Все лабораторные работы были сданы в срок, а контрольная была написана на &amp;ldquo;отлично&amp;rdquo;. Я также приступила к домашнему заданию на следующую неделю.&lt;/p&gt;
-&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
-&lt;p&gt;Неделя прошла довольно успешно и выдалась продуктивной.&lt;/p&gt;
-</description>
+      <title>Jian Yang and Monica Hall Win the Best Paper Award at Wowchemy 2020</title>
+      <link>https://example.com/post/20-12-02-icml-best-paper/</link>
+      <pubDate>Wed, 02 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/20-12-02-icml-best-paper/</guid>
+      <description>&lt;p&gt;Congratulations to Jian Yang and Monica Hall for winning the Best Paper Award at the 2020 Conference on Wowchemy for their paper “Learning Wowchemy”.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
+&lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
+&lt;p&gt;Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.&lt;/p&gt;</description>
     </item>
     
     <item>
-      <title>Языки научного программирования</title>
-      <link>https://example.com/post/scientific-programming-languages/</link>
-      <pubDate>Sat, 13 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/scientific-programming-languages/</guid>
-      <description>&lt;h2 id=&#34;научные-языки-программирования&#34;&gt;Научные языки программирования&lt;/h2&gt;
-&lt;p&gt;В компьютерном программировании , научный язык программирования может относиться к двум степеням той же концепции.&lt;/p&gt;
-&lt;p&gt;В широком смысле научный язык программирования - это язык программирования, который широко используется в вычислительной науке и вычислительной математике . В этом смысле C / C ++ и Python можно рассматривать как языки научного программирования.&lt;/p&gt;
-&lt;p&gt;В более широком смысле научный язык программирования - это язык, который разработан и оптимизирован для использования математических формул и матриц . Такие языки характеризуются не только наличием библиотек, выполняющих математические или научные функции, но и синтаксисом самого языка. Например, ни C ++, ни Python не имеют встроенных типов матриц или функций для матричной арифметики (сложение, умножение и т. Д.); вместо этого эта функция доступна через стандартные библиотеки. Языки научного программирования в более строгом смысле включают ALGOL , APL , Fortran , J , Julia ,Maple , MATLAB и R.&lt;/p&gt;
-&lt;p&gt;Языки научного программирования не следует путать с научным языком в целом, который свободно относится к более высоким стандартам точности, правильности и краткости, ожидаемым от практиков научного метода .&lt;/p&gt;
-&lt;h2 id=&#34;примеры&#34;&gt;Примеры&lt;/h2&gt;
-&lt;h3 id=&#34;линейная-алгебра&#34;&gt;Линейная алгебра&lt;/h3&gt;
-&lt;p&gt;Языки научного программирования предоставляют возможности для работы с линейной алгеброй. Работа с большими векторами и матрицами является ключевой особенностью этих языков, поскольку линейная алгебра закладывает основу математической оптимизации , которая, в свою очередь, позволяет использовать основные приложения, такие как глубокое обучение.&lt;/p&gt;
-&lt;h3 id=&#34;математическая-оптимизация&#34;&gt;Математическая оптимизация&lt;/h3&gt;
-&lt;p&gt;В научном языке программирования мы можем вычислять оптимум функции с синтаксисом, близким к математическому языку. В этом примере используется метод минимизации Ньютона . Современные языки научного программирования будут использовать автоматическое дифференцирование для вычисления градиентов и гессианов функции, заданной в качестве входных данных; ср. дифференцируемое программирование . Здесь для этой задачи выбрана автоматическая прямая дифференциация. Старые языки научного программирования, такие как почтенный Фортран, требовали от программиста передавать рядом с функцией, которая должна быть оптимизирована, функцию, которая вычисляет градиент, и функцию, которая вычисляет гессиан.&lt;/p&gt;
-&lt;p&gt;Чем больше знаний о функции, которую необходимо минимизировать, тем больше можно использовать более эффективные алгоритмы. Например, выпуклая оптимизация обеспечивает более быстрые вычисления, когда функция является выпуклой, квадратичное программирование обеспечивает более быстрые вычисления, когда функция не более чем квадратична по своим переменным, и линейное программирование, когда функция максимально линейна.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Последняя неделя апреля - как это было</title>
-      <link>https://example.com/post/april-last-week/</link>
-      <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/april-last-week/</guid>
-      <description>&lt;h2 id=&#34;цели-недели&#34;&gt;Цели недели&lt;/h2&gt;
-&lt;p&gt;На эту неделю было не так много целей:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Сделать и сдать лабораторные работы по компьютерной алгебре и операционным системам.&lt;/li&gt;
-&lt;li&gt;Сделать домашнее задание.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;неделя&#34;&gt;Неделя&lt;/h2&gt;
-&lt;p&gt;На прошедшей неделе заметно потеплело, поэтому учиться хотелось меньше, чем обычно. Однако я посетила занятия в университете, а также нашла время погулять. Все лабораторные работы были сданы в срок. Я также приступила к домашнему заданию на следующую неделю.&lt;/p&gt;
-&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
-&lt;p&gt;Неделя прошла довольно успешно и выдалась продуктивной.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Создание отчётов</title>
-      <link>https://example.com/post/writing-reports/</link>
-      <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/writing-reports/</guid>
-      <description>&lt;h2 id=&#34;что-такое-отчёт-и-зачем-он-нужен&#34;&gt;Что такое отчёт и зачем он нужен?&lt;/h2&gt;
-&lt;p&gt;Отчёт - это формальное сообщение о выполненной работе, доклад о процессе выполнения задач и результатах их выполнения. Отчёт обычно составляется, чтобы дать понимание о проделанной работе в письменном виде, зачастую для тех, кто ставил задачи, а иногда в качестве обучающего материала, пособия.&lt;/p&gt;
-&lt;h2 id=&#34;оформление-отчёта&#34;&gt;Оформление отчёта&lt;/h2&gt;
-&lt;p&gt;Для каждой лабораторной работы курса &amp;ldquo;Операционные системы&amp;rdquo; мы оформляем отчёт в формате MarkDown. Как работает оформление контента в MarkDown я уже, кстати, писала &lt;a href=&#34;https://nevseros.github.io/post/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;здесь&lt;/a&gt;, предлагаю сначала прочитать статью про него.&lt;/p&gt;
-&lt;p&gt;У отчёта должна быть понятная и обоснованная структура. Например, для оформления отчёта по лабораторной работе используется следующая структура:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Титульный лист.&lt;/strong&gt; Он должен включать заголовок - субъект отчёта (например, &amp;ldquo;Отчёт по лабораторной работе №99&amp;rdquo;), дисциплину, по которой выполнялась работа (например, &amp;ldquo;Операционные системы&amp;rdquo;), автора отчёта и работы (ФИ).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Содержание.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Список таблиц/картинок/листингов программ&lt;/strong&gt; для удобства.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Цель работы и задачи.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Теоретическое введение.&lt;/strong&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Основную часть&lt;/strong&gt; - описание работы. Сюда можно (и нужно!) включать картинки, листинги, таблицы для лучшего понимания и восприятия содержимого.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Заключение&lt;/strong&gt; - здесь можно написать выводы, описать полученный опыт, плюсы и минусы того или иного подхода и т. д.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Кроме соблюдения строгой структуры, отчёт должен быть написан грамотно - иначе его будет неприятно читать, а если отчёт оценивается преподавателем, то отметка будет снижена.&lt;/p&gt;
-&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
-&lt;p&gt;Комбинируя MarkDown и описанную выше структуру отчёта, можно писать очень приятные для глаз отчёты, при этом делая их полезными для читателя и презентабельными для преподавателя/коллег.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Легковесный язык разметки Markdown</title>
-      <link>https://example.com/post/markdown/</link>
-      <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/markdown/</guid>
-      <description>&lt;h2 id=&#34;легковесные-языки-разметки&#34;&gt;Легковесные языки разметки&lt;/h2&gt;
-&lt;p&gt;Легкий язык разметки является типом разметки языка, используя простой синтаксис, разработанный, чтобы быть легко печатать с простым текстовым редактором, и легко читаются в его бесформатной форме.&lt;/p&gt;
-&lt;h2 id=&#34;markdown&#34;&gt;Markdown&lt;/h2&gt;
-&lt;p&gt;Markdown - один из легковесных языков. Он достаточно популярен, давайте рассмотрим его систаксис.&lt;/p&gt;
-&lt;p&gt;Чтобы создать заголовок, неоюходимо использовать знак #, например:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;1.&lt;/span&gt; # This is heading 1
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;2.&lt;/span&gt; ## This is heading 2
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;3.&lt;/span&gt; ### This is heading 3
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;4.&lt;/span&gt; #### This is heading 4
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Чтобы задать для текста полужирное начертание, необходимо заключить его в двойные звёздочки:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;This text is &lt;span class=&#34;gs&#34;&gt;**bold**&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Чтобы задать для текста курсивное начертание, необходимо заключить его в одинарные звёздочки:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;This text is &lt;span class=&#34;ge&#34;&gt;*italic*&lt;/span&gt; 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Чтобы задать для текста полужирное и курсивное начертание, заключите его в тройные
-звездочки:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;This is text is both &lt;span class=&#34;ge&#34;&gt;**&lt;/span&gt;*bold and italic*** 
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Блоки цитирования создаются с помощью символа &amp;gt;:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;&amp;gt; &lt;/span&gt;&lt;span class=&#34;ge&#34;&gt;The drought had lasted now for ten million years, and the reign of the terrible lizards had long since ended.
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Неупорядоченный (маркированный) список можно отформатировать с помощью звездочек или тире:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; List item 1
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; List item 2
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; List item 3
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Чтобы вложить один список в другой, необходимо добавить отступ для элементов дочернего списка:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; List item 1
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; List item A
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;   &lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; List item B
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;-&lt;/span&gt; List item 2
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Упорядоченный список можно отформатировать с помощью соответствующих цифр:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;k&#34;&gt;1.&lt;/span&gt; First instruction
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;k&#34;&gt;2.&lt;/span&gt; Second instruction
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; &lt;span class=&#34;k&#34;&gt;3.&lt;/span&gt; Third instruction
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Чтобы вложить один список в другой, необходимо добавить отступ для элементов дочернего списка:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;1.&lt;/span&gt; First instruction
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;1.&lt;/span&gt; Sub-instruction
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;k&#34;&gt;1.&lt;/span&gt; Sub-instruction
-&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;k&#34;&gt;1.&lt;/span&gt; Second instruction
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Синтаксис Markdown для встроенной ссылки состоит из части [link text] , представляющей текст гиперссылки, и части (file-name.md) – URL адреса или имени файла, на который дается ссылка:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;[&lt;span class=&#34;nt&#34;&gt;link text&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;file-name.md&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Markdown поддерживает как встраивание фрагментов кода в предложение, так и их размещение между предложениями в виде отдельных огражденных блоков. Огражденные блоки кода — это простой способ выделить синтаксис для фрагментов кода. Общий формат огражденных блоков кода:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt; your code goes in here
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Внутритекстовые формулы делаются аналогично формулам LaTeX. Например:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-latex&#34; data-lang=&#34;latex&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;s&#34;&gt;$&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\sin&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;\cos&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;m&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;x&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt; &lt;/span&gt;&lt;span class=&#34;m&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;$&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;оформление-изображений-в-markdown&#34;&gt;Оформление изображений в Markdown&lt;/h3&gt;
-&lt;p&gt;В Markdown вставить изображение в документ можно с помощью непосредственного указания адреса изображения. Синтаксис данной команды выглядит следующим образом:&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;![&lt;span class=&#34;nt&#34;&gt;Подпись к рисунку&lt;/span&gt;](&lt;span class=&#34;na&#34;&gt;/путь/к/изображению.jpg &amp;#34;Необязательная подсказка&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Здесь:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;в квадратных скобках указывается подпись к изображению;&lt;/li&gt;
-&lt;li&gt;в круглых скобках указывается URL-адрес или относительный путь изображения, а также (необязательно) всплывающую подсказку, заключённую в двойные или одиночные кавычки.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
-&lt;p&gt;Научиться пользоваться языком Markdown легко, при этом он открывает много возможностей для редактирования текста.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Первая неделя апреля - как это было</title>
-      <link>https://example.com/post/april-first-week/</link>
-      <pubDate>Sat, 08 Apr 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/april-first-week/</guid>
-      <description>&lt;h2 id=&#34;цели-недели&#34;&gt;Цели недели&lt;/h2&gt;
-&lt;p&gt;На эту неделю было не так много целей:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Сделать и сдать лабораторные работы по компьютерной алгебре и операционным системам.&lt;/li&gt;
-&lt;li&gt;Написать контрольную работу по математической логике.&lt;/li&gt;
-&lt;li&gt;Сделать домашнее задание.&lt;/li&gt;
-&lt;li&gt;Написать ЕГЭ по информатике.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;неделя&#34;&gt;Неделя&lt;/h2&gt;
-&lt;p&gt;На прошедшей неделе заметно потеплело, поэтому учиться хотелось меньше, чем обычно. Однако я посетила занятия в университете, а также нашла время погулять. Все лабораторные работы были сданы в срок, а контрольная была написана на &amp;ldquo;отлично&amp;rdquo;. Я также приступила к домашнему заданию на следующую неделю.&lt;/p&gt;
-&lt;p&gt;Также я написала ЕГЭ по информатике. Времени не хватило, чтобы сделать все задания, но я довольна тем, что пошла на экзамен. Необычно идти на экзамен и не волноваться о результате.&lt;/p&gt;
-&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
-&lt;p&gt;Неделя прошла довольно успешно и выдалась продуктивной.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Системы контроля версий. Git.</title>
-      <link>https://example.com/post/git/</link>
-      <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/git/</guid>
-      <description>&lt;h2 id=&#34;системы-контроля-версий&#34;&gt;Системы контроля версий&lt;/h2&gt;
-&lt;p&gt;Системы контроля версий (Version Control System, VCS) применяются при работе нескольких человек над одним проектом. Обычно основное дерево проекта хранится в локальном или удалённом репозитории, к которому настроен доступ для участников проекта. При внесении изменений в содержание проекта система контроля версий позволяет их фиксировать, совмещать изменения, произведённые разными участниками проекта, производить откат к любой более ранней версии проекта, если это требуется.&lt;/p&gt;
-&lt;p&gt;В классических системах контроля версий используется централизованная модель, предполагающая наличие единого репозитория для хранения файлов. Выполнение большинства функций по управлению версиями осуществляется специальным сервером. Участник проекта (пользователь) перед началом работы посредством определённых команд получает нужную ему версию файлов. После внесения изменений, пользователь размещает новую версию в хранилище. При этом предыдущие версии не удаляются из центрального хранилища и к ним можно вернуться в любой момент. Сервер может сохранять не полную версию изменённых файлов, а производить так называемую дельтакомпрессию — сохранять только изменения между последовательными версиями, что позволяет уменьшить объём хранимых данных.&lt;/p&gt;
-&lt;p&gt;Системы контроля версий поддерживают возможность отслеживания и разрешения конфликтов, которые могут возникнуть при работе нескольких человек над одним файлом. Можно объединить (слить) изменения, сделанные разными участниками (автоматически или вручную), вручную выбрать нужную версию, отменить изменения вовсе или заблокировать файлы для изменения. В зависимости от настроек блокировка не позволяет другим пользователям получить рабочую копию или препятствует изменению рабочей копии файла средствами файловой системы ОС, обеспечивая таким образом, привилегированный доступ только одному пользователю, работающему с файлом.&lt;/p&gt;
-&lt;p&gt;Системы контроля версий также могут обеспечивать дополнительные, более гибкие функциональные возможности. Например, они могут поддерживать работу с несколькими версиями одного файла, сохраняя общую историю изменений до точки ветвления версий и собственные истории изменений каждой ветви. Кроме того, обычно доступна информация о том, кто из участников, когда и какие изменения вносил. Обычно такого рода информация хранится в журнале изменений, доступ к которому можно ограничить.&lt;/p&gt;
-&lt;p&gt;В отличие от классических, в распределённых системах контроля версий центральный репозиторий не является обязательным.&lt;/p&gt;
-&lt;p&gt;Среди классических VCS наиболее известны CVS, Subversion, а среди распределённых — Git, Bazaar, Mercurial. Принципы их работы схожи, отличаются они в основном синтаксисом используемых в работе команд.&lt;/p&gt;
-&lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
-&lt;p&gt;Git - это консольная утилита, для отслеживания и ведения истории изменения файлов, в вашем проекте. Чаще всего его используют для кода, но можно и для других файлов. Например, для картинок - полезно для дизайнеров.&lt;/p&gt;
-&lt;p&gt;С помощью Git-a вы можете откатить свой проект до более старой версии, сравнивать, анализировать или сливать свои изменения в репозиторий.&lt;/p&gt;
-&lt;p&gt;Репозиторием называют хранилище вашего кода и историю его изменений. Git работает локально и все ваши репозитории хранятся в определенных папках на жестком диске.&lt;/p&gt;
-&lt;p&gt;Так же ваши репозитории можно хранить и в интернете. Обычно для этого используют один из двух сервисов:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;GitHub&lt;/li&gt;
-&lt;li&gt;GitLab&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Каждая точка сохранения вашего проекта носит название коммит (commit). У каждого commit-a есть hash (уникальный id) и комментарий. Из таких commit-ов собирается ветка. Ветка - это история изменений. У каждой ветки есть свое название. Репозиторий может содержать в себе несколько веток, которые создаются из других веток или вливаются в них.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Третья неделя марта - как это было</title>
-      <link>https://example.com/post/march-third-week/</link>
-      <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/march-third-week/</guid>
-      <description>&lt;h2 id=&#34;цели-недели&#34;&gt;Цели недели&lt;/h2&gt;
-&lt;p&gt;На эту неделю было не так много целей:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Сделать и сдать лабораторные работы по компьютерной алгебре и операционным системам.&lt;/li&gt;
-&lt;li&gt;Написать контрольную работу по интегралам.&lt;/li&gt;
-&lt;li&gt;Сделать домашнее задание.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id=&#34;неделя&#34;&gt;Неделя&lt;/h2&gt;
-&lt;p&gt;На прошедшей неделе заметно потеплело, поэтому учиться хотелось меньше, чем обычно. Однако я посетила занятия в университете, а также нашла время погулять. Все лабораторные работы были сданы в срок, а контрольная была написана на &amp;ldquo;отлично&amp;rdquo;. Я также приступила к домашнему заданию на следующую неделю.&lt;/p&gt;
-&lt;h2 id=&#34;заключение&#34;&gt;Заключение&lt;/h2&gt;
-&lt;p&gt;Неделя прошла довольно успешно и выдалась продуктивной.&lt;/p&gt;
-</description>
+      <title>Richard Hendricks Wins First Place in the Wowchemy Prize</title>
+      <link>https://example.com/post/20-12-01-wowchemy-prize/</link>
+      <pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/20-12-01-wowchemy-prize/</guid>
+      <description>&lt;p&gt;Congratulations to Richard Hendricks for winning first place in the Wowchemy Prize.&lt;/p&gt;
+&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tempus augue non tempor egestas. Proin nisl nunc, dignissim in accumsan dapibus, auctor ullamcorper neque. Quisque at elit felis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Aenean eget elementum odio. Cras interdum eget risus sit amet aliquet. In volutpat, nisl ut fringilla dignissim, arcu nisl suscipit ante, at accumsan sapien nisl eu eros.&lt;/p&gt;
+&lt;p&gt;Sed eu dui nec ligula bibendum dapibus. Nullam imperdiet auctor tortor, vel cursus mauris malesuada non. Quisque ultrices euismod dapibus. Aenean sed gravida risus. Sed nisi tortor, vulputate nec quam non, placerat porta nisl. Nunc varius lobortis urna, condimentum facilisis ipsum molestie eu. Ut molestie eleifend ligula sed dignissim. Duis ut tellus turpis. Praesent tincidunt, nunc sed congue malesuada, mauris enim maximus massa, eget interdum turpis urna et ante. Morbi sem nisl, cursus quis mollis et, interdum luctus augue. Aliquam laoreet, leo et accumsan tincidunt, libero neque aliquet lectus, a ultricies lorem mi a orci.&lt;/p&gt;
+&lt;p&gt;Mauris dapibus sem vel magna convallis laoreet. Donec in venenatis urna, vitae sodales odio. Praesent tortor diam, varius non luctus nec, bibendum vel est. Quisque id sem enim. Maecenas at est leo. Vestibulum tristique pellentesque ex, blandit placerat nunc eleifend sit amet. Fusce eget lectus bibendum, accumsan mi quis, luctus sem. Etiam vitae nulla scelerisque, eleifend odio in, euismod quam. Etiam porta ullamcorper massa, vitae gravida turpis euismod quis. Mauris sodales sem ac ultrices viverra. In placerat ultrices sapien. Suspendisse eu arcu hendrerit, luctus tortor cursus, maximus dolor. Proin et velit et quam gravida dapibus. Donec blandit justo ut consequat tristique.&lt;/p&gt;</description>
     </item>
     
   </channel>
