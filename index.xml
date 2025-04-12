@@ -2,36 +2,187 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Колебания цепочек</title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/</link>
+      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Колебания цепочек</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 22 Mar 2025 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu_7613a4a452ac7087.png</url>
+      <url>https://example.com/media/icon_hu_7613a4a452ac7087.png</url>
       <title>Колебания цепочек</title>
-      <link>http://localhost:1313/</link>
+      <link>https://example.com/</link>
     </image>
     
     <item>
-      <title>Example Event</title>
-      <link>http://localhost:1313/event/example/</link>
-      <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/event/example/</guid>
-      <description>&lt;p&gt;Slides can be added in a few ways:&lt;/p&gt;
+      <title>Второй этап проекта</title>
+      <link>https://example.com/event/stage2/</link>
+      <pubDate>Sat, 12 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/event/stage2/</guid>
+      <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
+&lt;p&gt;Описать алгоритмы для моделирования колебания цепочки атомов.&lt;/p&gt;
+&lt;h1 id=&#34;задание&#34;&gt;Задание&lt;/h1&gt;
+&lt;ol&gt;
+&lt;li&gt;Описать алгоритм для моделирования гармонических колебаний.&lt;/li&gt;
+&lt;li&gt;Описать алгоритм для моделирования ангармонических колебаний.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h1 id=&#34;выполнение-лабораторной-работы&#34;&gt;Выполнение лабораторной работы&lt;/h1&gt;
+&lt;h2 id=&#34;алгоритм-для-гармонических-колебаний&#34;&gt;Алгоритм для гармонических колебаний&lt;/h2&gt;
+&lt;p&gt;Мы моделируем одномерную цепочку из $N$ точек (частиц), соединённых пружинами с жесткостью $k$. Частицы могут двигаться только вдоль одной прямой. Начальное состояние системы &amp;ndash; равновесное, то есть все пружины недеформированы, а частицы находятся в точках $x_i = i dx_i​ = i_d$, где $d$ &amp;ndash; расстояние между частицами.&lt;/p&gt;
+&lt;p&gt;После небольшого возмущения система начинает совершать колебания. Цель &amp;ndash; численно смоделировать движение частиц с течением времени.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Исходные уравнения&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Для $i$-й частицы записывается уравнение движения, следующее из второго закона Ньютона и действия силы упругости от соседних пружин:&lt;/p&gt;
+&lt;p&gt;$$
+m \dfrac{d^2 y_i}{dt^2} = k(y_{i+1} - 2y_i + y_{i-1}), \quad i = 1, \dots, N.
+$$&lt;/p&gt;
+&lt;p&gt;С граничными условиями:&lt;/p&gt;
+&lt;p&gt;$$
+y_0 = 0, y_{N+1} = 0
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание параметров&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create&lt;/strong&gt; slides using Wowchemy&amp;rsquo;s &lt;a href=&#34;https://docs.hugoblox.com/managing-content/#create-slides&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;em&gt;Slides&lt;/em&gt;&lt;/a&gt; feature and link using &lt;code&gt;slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Upload&lt;/strong&gt; an existing slide deck to &lt;code&gt;static/&lt;/code&gt; and link using &lt;code&gt;url_slides&lt;/code&gt; parameter in the front matter of the talk file&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Embed&lt;/strong&gt; your slides (e.g. Google Slides) or presentation video on this page using &lt;a href=&#34;https://docs.hugoblox.com/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;shortcodes&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$N$ &amp;ndash; количество подвижных частиц&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$m$ &amp;ndash; масса каждой частицы&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$k$ &amp;ndash; жесткость пружины между частицами&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$T$ &amp;ndash; общее время моделирования&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\Delta t$ &amp;ndash; шаг по времени&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;$\Delta d$ &amp;ndash; расстояние между частицами (может быть единичным)&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Further event details, including page elements such as image galleries, can be added to the body of this page.&lt;/p&gt;
+&lt;p&gt;Начальные условия:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$y_i(0)$ &amp;ndash; начальное смещение для каждой частицы&lt;/li&gt;
+&lt;li&gt;$v_i(0)$ &amp;ndash; начальная скорость&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Инициализация массивов&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Создаем три массива длиной $N+2$ (включая фиктивные граничные точки $y_0​ = y_{N+1}​ = 0$):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$y[i]$ &amp;ndash; смещения частиц&lt;/li&gt;
+&lt;li&gt;$v[i]$ &amp;ndash; скорости частиц&lt;/li&gt;
+&lt;li&gt;$a[i]$ &amp;ndash; ускорения частиц&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Все индексы $i$ идут от $0$ до $N+1$, чтобы удобно учитывать граничные условия.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Основной цикл моделирования&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Запускаем цикл по времени от $t = 0$ до $T$ с шагом $\Delta t$.&lt;/p&gt;
+&lt;p&gt;Вычисление ускорений:&lt;/p&gt;
+&lt;p&gt;Для всех $\quad i = 1, \dots, N$ (внутренние точки):&lt;/p&gt;
+&lt;p&gt;$$
+a_i = \dfrac{k}{m}(y_{i+1} - 2y_i + y_{i−1})
+$$&lt;/p&gt;
+&lt;p&gt;Обновление скоростей (например, по методу Эйлера):&lt;/p&gt;
+&lt;p&gt;$$
+v_i (t + \Delta t) = v_i(t) + a_i \Delta t
+$$&lt;/p&gt;
+&lt;p&gt;Обновление смещений:&lt;/p&gt;
+&lt;p&gt;$$
+y_i (t + \Delta t) = y_i(t) + v_i(t + \Delta t) \Delta t
+$$&lt;/p&gt;
+&lt;p&gt;Применение граничных условий:&lt;/p&gt;
+&lt;p&gt;$$
+y_0 = 0, y_{N+1} = 0
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Сохранение или визуализация&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;На каждом шаге (или через несколько шагов) можно сохранять текущие значения массива $y[i]$ в список или файл, чтобы потом построить графики движения или анимацию колебаний.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Результат работы алгоритма&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;После завершения моделирования у нас есть набор значений $y_i(t)$ для всех частиц и моментов времени, с помощью которого можно:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Построить графики смещений и скоростей&lt;/li&gt;
+&lt;li&gt;Сделать анимацию колебаний&lt;/li&gt;
+&lt;li&gt;Проанализировать спектр колебаний (через БПФ)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;алгоритм-для-ангармонических-колебаний&#34;&gt;Алгоритм для ангармонических колебаний&lt;/h2&gt;
+&lt;p&gt;В ангармонической модели учитываются нелинейные эффекты. Это более реалистичная модель, в которой сила взаимодействия между частицами не строго линейна по закону Гука. Например, к линейной силе $F = − kx$ добавляются нелинейные поправки &amp;ndash; чаще всего в виде членa третьего порядка:&lt;/p&gt;
+&lt;p&gt;$$
+F(x)= − kx − \alpha x^3
+$$&lt;/p&gt;
+&lt;p&gt;Здесь $\alpha$ &amp;ndash; коэффициент ангармоничности (обычно малый, $\alpha &amp;gt; 0$).&lt;/p&gt;
+&lt;p&gt;Для цепочки из $N$ частиц с массами $m$, соединённых ангармоническими пружинами, общее уравнение движения для $i$-й частицы:&lt;/p&gt;
+&lt;p&gt;$$
+m \dfrac{d^2 y_i}{dt^2} = F_{i+1 \rightarrow i} + F_{i−1 \rightarrow i}
+$$&lt;/p&gt;
+&lt;p&gt;Силы между частицами:&lt;/p&gt;
+&lt;p&gt;$$
+F_{i+1 \rightarrow i} ​= −k(y_i ​− y_{i+1}​) − \alpha (y_i​−y_{i+1}​) ^ 3
+$$&lt;/p&gt;
+&lt;p&gt;$$
+F_{i−1 \rightarrow i}​ = −k(y_i​−y_{i−1}​) − \alpha (y_i​ − y_{i−1}​) ^ 3
+$$&lt;/p&gt;
+&lt;p&gt;Подставляя, получаем уравнение движения:&lt;/p&gt;
+&lt;p&gt;$$
+m \dfrac{d^2 y_i}{dt^2} ​​= k(y_{i+1}​ − 2y_i​ + y_{i−1}​) + \alpha[(y_{i+1}​ − y_i​)^3 + (y_{i−1}​ − y_i​)^3]
+$$&lt;/p&gt;
+&lt;p&gt;Это — нелинейная система уравнений, и её решение ведёт к появлению таких эффектов, как генерация обертонов, смешивание мод, переход энергии между модами и т.п.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Задание параметров&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$N$ — количество подвижных частиц&lt;/li&gt;
+&lt;li&gt;$m$ — масса частицы&lt;/li&gt;
+&lt;li&gt;$k$ — жесткость пружины&lt;/li&gt;
+&lt;li&gt;$\alpha$ — коэффициент ангармоничности&lt;/li&gt;
+&lt;li&gt;$\Delta t$ — шаг по времени&lt;/li&gt;
+&lt;li&gt;$T$ — общее время моделирования&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Начальные условия $y_i(0), v_i(0)$ — например, одна синусоида или случайное возмущение.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Инициализация массивов&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Создаются массивы:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;$y[i]$ — смещения&lt;/li&gt;
+&lt;li&gt;$v[i]$ — скорости&lt;/li&gt;
+&lt;li&gt;$a[i]$ — ускорения&lt;/li&gt;
+&lt;li&gt;индексы $\quad i = 1, \dots, N$ (фиктивные граничные условия)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Цикл по времени&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Вычисление ускорений:&lt;/p&gt;
+&lt;p&gt;Для каждого $\quad i = 1, \dots, N$:&lt;/p&gt;
+&lt;p&gt;$$
+a_i = \dfrac {1}{m} [k(y_{i+1} - 2y_i + y_{i-1}) + \alpha ((y_{i+1} - y_i)^3) + (y_{i-1} - y_i)^3]
+$$&lt;/p&gt;
+&lt;p&gt;Обновление скоростей:&lt;/p&gt;
+&lt;p&gt;$$
+v_i (t + \Delta t) = v_i(t) + a_i \Delta t
+$$&lt;/p&gt;
+&lt;p&gt;Обновление смещений:&lt;/p&gt;
+&lt;p&gt;$$
+y_i (t + \Delta t) = y_i(t) + v_i (t + \Delta t) \Delta t
+$$&lt;/p&gt;
+&lt;p&gt;Граничные условия:&lt;/p&gt;
+&lt;p&gt;$$
+y_0 = 0, y_{N + 1} = 0
+$$&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Сохранение или визуализация&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Сохраняем массивы $y_i(t)$ на каждом шаге или делаем Fourier-анализ, чтобы увидеть развитие обертонов.&lt;/p&gt;
+&lt;p&gt;В отличие от гармонической цепочки, волны разных частот взаимодействуют. Появляются обертоны — кратные и некратные частоты. Энергия может перетекать между модами, что моделирует реальные физические системы (кристаллы, цепочки молекул и т.п.). Возможно появление хаотического поведения при больших $\alpha$.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Полный текст отчёта можно найти по &lt;a href=&#34;https://nevseros.github.io/publication/stage2/conference-paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;этой&lt;/a&gt; ссылке.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Полную версию презентации можно найти по &lt;a href=&#34;https://nevseros.github.io/event/stage2/presentation.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;этой&lt;/a&gt; ссылке.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Защиту работы можно найти по &lt;a href=&#34;https://plvideo.ru/watch?v=TeE8tVVnZItgv&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;этой&lt;/a&gt; ссылке.
+  &lt;/div&gt;
+&lt;/div&gt;
 </description>
     </item>
     
     <item>
       <title>Модель колебания цепочек атомов</title>
-      <link>http://localhost:1313/publication/conference-paper/</link>
+      <link>https://example.com/publication/stage1/</link>
       <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-paper/</guid>
+      <guid>https://example.com/publication/stage1/</guid>
       <description>&lt;h1 id=&#34;введение&#34;&gt;Введение&lt;/h1&gt;
 &lt;h2 id=&#34;актуальность&#34;&gt;Актуальность&lt;/h2&gt;
 &lt;p&gt;Все вещества состоят из атомов, которые постоянно колеблются. Изучение этих колебаний помогает нам понять, как материалы ведут себя при разных температурах. Особенно важно понимать, как колебания приводят к тепловому равновесию. Исследование цепочек атомов, связанных пружинками, это простая модель, чтобы понять, как возникают колебания в кристаллах. Эта модель помогает объяснить, почему некоторые классические законы физики работают только при высоких температурах. Понимание колебаний важно для создания новых материалов с нужными свойствами, например, для электроники или термоизоляции.&lt;/p&gt;
@@ -104,10 +255,86 @@ $$&lt;/p&gt;
     </item>
     
     <item>
-      <title>Модель. Презентация по научной проблеме. Теоретическое описание задачи. Описание модели.</title>
-      <link>http://localhost:1313/post/2025-03-22-intro/</link>
+      <title>Модель колебания цепочек атомов</title>
+      <link>https://example.com/publication/stage2/</link>
       <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2025-03-22-intro/</guid>
+      <guid>https://example.com/publication/stage2/</guid>
+      <description>&lt;h1 id=&#34;введение&#34;&gt;Введение&lt;/h1&gt;
+&lt;h2 id=&#34;актуальность&#34;&gt;Актуальность&lt;/h2&gt;
+&lt;p&gt;Все вещества состоят из атомов, которые постоянно колеблются. Изучение этих колебаний помогает нам понять, как материалы ведут себя при разных температурах. Особенно важно понимать, как колебания приводят к тепловому равновесию. Исследование цепочек атомов, связанных пружинками, это простая модель, чтобы понять, как возникают колебания в кристаллах. Эта модель помогает объяснить, почему некоторые классические законы физики работают только при высоких температурах. Понимание колебаний важно для создания новых материалов с нужными свойствами, например, для электроники или термоизоляции.&lt;/p&gt;
+&lt;h2 id=&#34;объект-и-предмет-исследования&#34;&gt;Объект и предмет исследования&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Изучение условий для установления равновесия.&lt;/li&gt;
+&lt;li&gt;Изучение условий для приближения к равновесию.&lt;/li&gt;
+&lt;li&gt;Изучение явлений в простейшем одномерном случае.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h2&gt;
+&lt;p&gt;Исследовать закономерности колебаний в простейшей одномерной цепочке атомов, связанных между собой.&lt;/p&gt;
+&lt;h2 id=&#34;задачи&#34;&gt;Задачи&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;построить модель цепочки из N частиц;&lt;/li&gt;
+&lt;li&gt;задать начальные условия в виде гармоники и измерить собственную частоту. Сравнить результаты с теоретическими;&lt;/li&gt;
+&lt;li&gt;проверить, используя преобразования Фурье координат и скоростей частиц, что энергия каждой гармоники не меняется;&lt;/li&gt;
+&lt;li&gt;рассмотреть цепочку с чередующимися частицами.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;модель&#34;&gt;Модель&lt;/h1&gt;
+&lt;h2 id=&#34;колебания-цепочек&#34;&gt;Колебания цепочек&lt;/h2&gt;
+&lt;p&gt;Все тела состоят из атомов. Представим движение атомов, связанных вместе пружинами. Эти колебания, называемые фононами, переносят энергию и импульс через материал, определяя его тепловые и оптические свойства. Колебания цепочек позволяют понять, как тепло распространяется в твёрдых телах, почему закон cV = 3R Дюлонга и Пти хорошо выполняется при не слишком низких температурах, пока влияние квантовых эффектов невелико. Модели колебаний цепочек варьируются от простых одномерных моделей до сложных трёхмерных расчётов, учитывающих взаимодействие между атомами и дефекты решётки.&lt;/p&gt;
+&lt;h2 id=&#34;гармоническая-цепочка&#34;&gt;Гармоническая цепочка&lt;/h2&gt;
+&lt;p&gt;Рассмотрим простейшую модель, используемую для описания колебаний атомов в твёрдом теле. Она состоит из $N$ идентичных точечных частиц, каждая массой $m$, расположенных вдоль прямой линии и соединённых между собой идеальными пружинками с одинаковой жёсткостью $k$. Крайние частицы прикреплены к неподвижным стенкам при помощи пружин. Таким образом, всего в системе $N+1$ пружин, каждая из которых имеет длину $d$.&lt;/p&gt;
+&lt;h2 id=&#34;уравнение-движения&#34;&gt;Уравнение движения&lt;/h2&gt;
+&lt;p&gt;Если начально пружины не деформированы, то положение равновесия $i$-й частицы — это $x_i = id$. Вводятся малые смещения $y_i$ от положения равновесия. Тогда силы, действующие на $i$-ю частицу, записываются как:&lt;/p&gt;
+&lt;p&gt;$$
+F_i = k(y_{i+1} - y_i) - k(y_i - y_{i-1}) = k(y_{i+1} - 2y_i + y_{i-1}).
+$$&lt;/p&gt;
+&lt;p&gt;Соответственно, уравнение движения имеет вид:&lt;/p&gt;
+&lt;p&gt;$$
+m \frac{d^2 y_i}{dt^2} = k(y_{i+1} - 2y_i + y_{i-1}), \quad i = 1, \dots, N.
+$$&lt;/p&gt;
+&lt;h2 id=&#34;полная-энергия-системы&#34;&gt;Полная энергия системы&lt;/h2&gt;
+&lt;p&gt;Полная энергия системы учитывает как кинетическую, так и потенциальную энергию:&lt;/p&gt;
+&lt;p&gt;$$
+U = \frac{m}{2} \sum_{i=1}^{N} \left( \frac{d y_i}{dt} \right)^2 + \frac{k}{2} \sum_{i=1}^{N+1} (y_i - y_{i-1})^2.
+$$&lt;/p&gt;
+&lt;h2 id=&#34;решение-уравнения&#34;&gt;Решение уравнения&lt;/h2&gt;
+&lt;p&gt;Физически обоснованным решением является форма стоячей волны:&lt;/p&gt;
+&lt;p&gt;$$
+y_i = \left( A \cos (p x_i) + B \sin (p x_i) \right) \cos (\omega t).
+$$&lt;/p&gt;
+&lt;p&gt;Граничные условия (y_0 = 0) и (y_{N+1} = 0) приводят к ограничению на (p):&lt;/p&gt;
+&lt;p&gt;$$
+\sin (p (N+1)d) = 0.
+$$&lt;/p&gt;
+&lt;p&gt;Это выполняется при значениях:&lt;/p&gt;
+&lt;p&gt;$$
+p_l = \frac{l \pi}{(N+1)d}, \quad l = 1, \dots, N.
+$$&lt;/p&gt;
+&lt;h2 id=&#34;дисперсионное-соотношение&#34;&gt;Дисперсионное соотношение&lt;/h2&gt;
+&lt;p&gt;Подставляя $p_l$ в уравнение движения, получаем:&lt;/p&gt;
+&lt;p&gt;$$
+\omega_l = 2\omega_0 \sin \left( \frac{l \pi}{2(N+1)} \right), \quad l = 1, \dots, N,
+$$&lt;/p&gt;
+&lt;p&gt;где $\omega_0 = \sqrt{k/m}$.&lt;/p&gt;
+&lt;h2 id=&#34;собственные-моды&#34;&gt;Собственные моды&lt;/h2&gt;
+&lt;p&gt;В системе существуют различные моды колебаний, соответствующие различным $p_l$. Эти моды не взаимодействуют между собой и называются гармониками. В музыке волна с волновым числом $p_1$ называется основным тоном, а остальные — обертонами.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Полный текст публикации можно найти по &lt;a href=&#34;https://nevseros.github.io/publication/stage2/conference-paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;этой&lt;/a&gt; ссылке.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Защиту работы можно найти по &lt;a href=&#34;https://plvideo.ru/watch?v=UbNmImnvGdzX&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;этой&lt;/a&gt; ссылке.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Модель. Презентация по научной проблеме. Теоретическое описание задачи. Описание модели.</title>
+      <link>https://example.com/post/2025-03-22-intro/</link>
+      <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/2025-03-22-intro/</guid>
       <description>&lt;p&gt;Мы приступили к реализации проекта - делимся моделью.&lt;/p&gt;
 &lt;h1 id=&#34;введение&#34;&gt;Введение&lt;/h1&gt;
 &lt;h2 id=&#34;состав-команды&#34;&gt;Состав команды&lt;/h2&gt;
@@ -147,34 +374,115 @@ $$&lt;/p&gt;
     </item>
     
     <item>
+      <title>Первый этап проекта</title>
+      <link>https://example.com/event/stage1/</link>
+      <pubDate>Sat, 22 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>https://example.com/event/stage1/</guid>
+      <description>&lt;h1 id=&#34;введение&#34;&gt;Введение&lt;/h1&gt;
+&lt;h2 id=&#34;актуальность&#34;&gt;Актуальность&lt;/h2&gt;
+&lt;p&gt;Все вещества состоят из атомов, которые постоянно колеблются. Изучение этих колебаний помогает нам понять, как материалы ведут себя при разных температурах. Особенно важно понимать, как колебания приводят к тепловому равновесию. Исследование цепочек атомов, связанных пружинками, это простая модель, чтобы понять, как возникают колебания в кристаллах. Эта модель помогает объяснить, почему некоторые классические законы физики работают только при высоких температурах. Понимание колебаний важно для создания новых материалов с нужными свойствами, например, для электроники или термоизоляции.&lt;/p&gt;
+&lt;h2 id=&#34;объект-и-предмет-исследования&#34;&gt;Объект и предмет исследования&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Изучение условий для установления равновесия.&lt;/li&gt;
+&lt;li&gt;Изучение условий для приближения к равновесию.&lt;/li&gt;
+&lt;li&gt;Изучение явлений в простейшем одномерном случае.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h2&gt;
+&lt;p&gt;Исследовать закономерности колебаний в простейшей одномерной цепочке атомов, связанных между собой.&lt;/p&gt;
+&lt;h2 id=&#34;задачи&#34;&gt;Задачи&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;построить модель цепочки из N частиц;&lt;/li&gt;
+&lt;li&gt;задать начальные условия в виде гармоники и измерить собственную частоту. Сравнить результаты с теоретическими;&lt;/li&gt;
+&lt;li&gt;проверить, используя преобразования Фурье координат и скоростей частиц, что энергия каждой гармоники не меняется;&lt;/li&gt;
+&lt;li&gt;рассмотреть цепочку с чередующимися частицами.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;модель&#34;&gt;Модель&lt;/h1&gt;
+&lt;h2 id=&#34;колебания-цепочек&#34;&gt;Колебания цепочек&lt;/h2&gt;
+&lt;p&gt;Все тела состоят из атомов. Представим движение атомов, связанных вместе пружинами. Эти колебания, называемые фононами, переносят энергию и импульс через материал, определяя его тепловые и оптические свойства. Колебания цепочек позволяют понять, как тепло распространяется в твёрдых телах, почему закон cV = 3R Дюлонга и Пти хорошо выполняется при не слишком низких температурах, пока влияние квантовых эффектов невелико. Модели колебаний цепочек варьируются от простых одномерных моделей до сложных трёхмерных расчётов, учитывающих взаимодействие между атомами и дефекты решётки.&lt;/p&gt;
+&lt;h2 id=&#34;гармоническая-цепочка&#34;&gt;Гармоническая цепочка&lt;/h2&gt;
+&lt;p&gt;Рассмотрим простейшую модель, используемую для описания колебаний атомов в твёрдом теле. Она состоит из $N$ идентичных точечных частиц, каждая массой $m$, расположенных вдоль прямой линии и соединённых между собой идеальными пружинками с одинаковой жёсткостью $k$. Крайние частицы прикреплены к неподвижным стенкам при помощи пружин. Таким образом, всего в системе $N+1$ пружин, каждая из которых имеет длину $d$.&lt;/p&gt;
+&lt;h2 id=&#34;уравнение-движения&#34;&gt;Уравнение движения&lt;/h2&gt;
+&lt;p&gt;Если начально пружины не деформированы, то положение равновесия $i$-й частицы — это $x_i = id$. Вводятся малые смещения $y_i$ от положения равновесия. Тогда силы, действующие на $i$-ю частицу, записываются как:&lt;/p&gt;
+&lt;p&gt;$$
+F_i = k(y_{i+1} - y_i) - k(y_i - y_{i-1}) = k(y_{i+1} - 2y_i + y_{i-1}).
+$$&lt;/p&gt;
+&lt;p&gt;Соответственно, уравнение движения имеет вид:&lt;/p&gt;
+&lt;p&gt;$$
+m \frac{d^2 y_i}{dt^2} = k(y_{i+1} - 2y_i + y_{i-1}), \quad i = 1, \dots, N.
+$$&lt;/p&gt;
+&lt;h2 id=&#34;полная-энергия-системы&#34;&gt;Полная энергия системы&lt;/h2&gt;
+&lt;p&gt;Полная энергия системы учитывает как кинетическую, так и потенциальную энергию:&lt;/p&gt;
+&lt;p&gt;$$
+U = \frac{m}{2} \sum_{i=1}^{N} \left( \frac{d y_i}{dt} \right)^2 + \frac{k}{2} \sum_{i=1}^{N+1} (y_i - y_{i-1})^2.
+$$&lt;/p&gt;
+&lt;h2 id=&#34;решение-уравнения&#34;&gt;Решение уравнения&lt;/h2&gt;
+&lt;p&gt;Физически обоснованным решением является форма стоячей волны:&lt;/p&gt;
+&lt;p&gt;$$
+y_i = \left( A \cos (p x_i) + B \sin (p x_i) \right) \cos (\omega t).
+$$&lt;/p&gt;
+&lt;p&gt;Граничные условия $y_0 = 0$ и $y_{N+1} = 0$ приводят к ограничению на $p$:&lt;/p&gt;
+&lt;p&gt;$$
+\sin (p (N+1)d) = 0.
+$$&lt;/p&gt;
+&lt;p&gt;Это выполняется при значениях:&lt;/p&gt;
+&lt;p&gt;$$
+p_l = \frac{l \pi}{(N+1)d}, \quad l = 1, \dots, N.
+$$&lt;/p&gt;
+&lt;h2 id=&#34;дисперсионное-соотношение&#34;&gt;Дисперсионное соотношение&lt;/h2&gt;
+&lt;p&gt;Подставляя $p_l$ в уравнение движения, получаем:&lt;/p&gt;
+&lt;p&gt;$$
+\omega_l = 2\omega_0 \sin \left( \frac{l \pi}{2(N+1)} \right), \quad l = 1, \dots, N,
+$$&lt;/p&gt;
+&lt;p&gt;где $\omega_0 = \sqrt{k/m}$.&lt;/p&gt;
+&lt;h2 id=&#34;собственные-моды&#34;&gt;Собственные моды&lt;/h2&gt;
+&lt;p&gt;В системе существуют различные моды колебаний, соответствующие различным $p_l$. Эти моды не взаимодействуют между собой и называются гармониками. В музыке волна с волновым числом $p_1$ называется основным тоном, а остальные — обертонами.&lt;/p&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Полный текст отчёта можно найти по &lt;a href=&#34;https://nevseros.github.io/event/stage1/conference-paper.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;этой&lt;/a&gt; ссылке.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Полную версию презентации можно найти по &lt;a href=&#34;https://nevseros.github.io/event/stage1/presentation.pdf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;этой&lt;/a&gt; ссылке.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Защиту работы можно найти по &lt;a href=&#34;https://plvideo.ru/watch?v=UbNmImnvGdzX&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;этой&lt;/a&gt; ссылке.
+  &lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Команда</title>
-      <link>http://localhost:1313/people/</link>
+      <link>https://example.com/people/</link>
       <pubDate>Sat, 22 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/people/</guid>
+      <guid>https://example.com/people/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Contact</title>
-      <link>http://localhost:1313/contact/</link>
+      <link>https://example.com/contact/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/contact/</guid>
+      <guid>https://example.com/contact/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tour</title>
-      <link>http://localhost:1313/tour/</link>
+      <link>https://example.com/tour/</link>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tour/</guid>
+      <guid>https://example.com/tour/</guid>
       <description></description>
     </item>
     
     <item>
       <title></title>
-      <link>http://localhost:1313/admin/config.yml</link>
+      <link>https://example.com/admin/config.yml</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/admin/config.yml</guid>
+      <guid>https://example.com/admin/config.yml</guid>
       <description></description>
     </item>
     
